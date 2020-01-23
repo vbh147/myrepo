@@ -7,6 +7,10 @@ int main(void){
 
     //Microcontroller initialization
 
+    init_clock();
+
+    enable_timer4();
+
     while(1){
 
     }
